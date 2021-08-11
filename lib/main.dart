@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_01/homeview.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,9 +15,8 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
- @override
+  @override
   Widget build(BuildContext context) {
-     return Scaffold();
+    return HomeView();
   }
 }
-
