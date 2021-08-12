@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
+import 'package:practice_01/Utils/color.dart';
 
 class HomeView extends StatelessWidget {
   List<Widget> _buildScreens() {
@@ -14,14 +15,14 @@ class HomeView extends StatelessWidget {
       PersistentBottomNavBarItem(
         icon: Icon(Icons.home),
         title: ("Home"),
-        activeColorPrimary: Colors.black,
-        inactiveColorPrimary: Colors.red,
+        activeColorPrimary: kFourthColor[900],
+        inactiveColorPrimary: Colors.black,
       ),
       PersistentBottomNavBarItem(
         icon: Icon(Icons.settings),
         title: ("Settings"),
-        activeColorPrimary: Colors.black,
-        inactiveColorPrimary: Colors.red,
+        activeColorPrimary: kFirstColor[900],
+        inactiveColorPrimary: Colors.black,
       ),
     ];
   }
